@@ -1,3 +1,3 @@
 public class Animal {
-    private String name;
+    private int chislo;
 }
