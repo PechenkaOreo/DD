@@ -1,4 +1,16 @@
 public class Animal {
-    private int chislo;
-   dsdsdsdsd
+    private String name;
+
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    void greets() {
+
+    }
+
 }
