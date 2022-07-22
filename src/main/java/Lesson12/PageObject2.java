@@ -13,6 +13,7 @@ public class PageObject2 {
 
     public void getCourseTitle() {
         System.out.println(driver.getTitle());
+    }
         public void getCourseRate () {
             System.out.println(driver.findElement(By.className("course-rating_average")).getText());
         }
@@ -23,4 +24,3 @@ public class PageObject2 {
 
         }
     }
-}
