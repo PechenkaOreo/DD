@@ -23,6 +23,6 @@ public class Dog extends Animal implements Pet{
 
     @Override
     public void play() {
-        System.out.printf("Playing with dog" + super,getName());
+        System.out.printf("Playing with dog" + super.getName());
     }
 }
